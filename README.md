@@ -59,10 +59,10 @@ O objetivo principal é aplicar os conhecimentos adquiridos em **HTML, CSS, Java
 ## 👨‍💻 **Autores**
 
 - Projeto realizado pelos alunos da Estácio — disciplina de Desenvolvimento Web.
-Vittoria Emmanuele de Oliveira Coutinho
-Alex Kilber de Oliveira Ramalho
-João Gabriel Rodrigues Vieira
-João Artur Araújo da Cruz
+Vittoria Emmanuele de Oliveira Coutinho,
+Alex Kilber de Oliveira Ramalho,
+João Gabriel Rodrigues Vieira,
+João Artur Araújo da Cruz.
 
 ---
 
