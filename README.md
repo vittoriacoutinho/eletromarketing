@@ -18,7 +18,7 @@ O objetivo principal é aplicar os conhecimentos adquiridos em **HTML, CSS, Java
 - **CSS3** — estilização das páginas
 - **JavaScript** — interatividade do front-end
 - **PHP** — processamento no servidor (login e formulários)
-- **Banco de Dados (MySQL)** — armazenamento de informações de usuários e pedidos *(em desenvolvimento)*
+- **Banco de Dados (MySQL)** — armazenamento de informações de usuários e pedidos 
 
 ---
 
