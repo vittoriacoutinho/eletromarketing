@@ -1,0 +1,79 @@
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* igual ao index para mais consistência */
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  margin-top: 40px;
+  color: #f1c40f; /* amarelo dourado do site */
+}
+
+.login {
+  background-color: #fff; /* caixa branca */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  margin: 40px auto; /* centraliza */
+  padding: 20px;
+  text-align: left; /* alinha conteúdo à esquerda dentro da caixa */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* sombra leve */
+}
+
+.login h3 {
+  margin-top: 0;
+}
+
+.login p {
+  margin: 8px 0;
+}
+
+label {
+  display: block;
+  margin: 12px 0 4px;
+  font-weight: 500;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #f1c40f; /* amarelo dourado igual no site */
+  border: 1px solid #d4af0f;
+  color: #000;
+  border-radius: 4px;
+  padding: 8px;
+  width: 100%;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #d4af0f;
+}
+
+.credenciais {
+  font-size: 0.9em;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.dashboard {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.dashboard button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
