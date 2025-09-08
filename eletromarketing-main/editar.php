@@ -46,8 +46,9 @@ $usuario = $result->fetch_assoc();
     </form>
 
     <br>
-    <a href="index.php">
+    <a href="cadastro.php">
         <i class="fas fa-arrow-left"></i> Voltar
     </a>
 </body>
 </html>
+
