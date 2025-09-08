@@ -1,13 +1,18 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Eletromarketing - Login</title>
+
+  <!-- CSS -->
   <link rel="stylesheet" href="/eletromarketing-main/css/login.css">
 
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
+  <!-- Fontes -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <!-- JS -->
   <script src="login.js"></script>
 </head>
 <body>
@@ -19,12 +24,27 @@
 
     <form id="loginForm" action="valida_login.php" method="POST">
       <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required placeholder="Digite seu email" /><br>
+      <input 
+        type="email" 
+        id="email" 
+        name="email" 
+        required 
+        placeholder="Digite seu email" 
+      />
+      <br>
 
-      <label for="password">Senha:</label>
-      <input type="password" id="senha" name="senha" required placeholder="Digite sua senha" /><br>
+      <label for="senha">Senha:</label>
+      <input 
+        type="password" 
+        id="senha" 
+        name="senha" 
+        required 
+        placeholder="Digite sua senha" 
+      />
+      <br>
 
-      <button type="submit">Entrar</button><br>
+      <button type="submit">Entrar</button>
+      <br>
     </form>
 
     <p class="credenciais">
@@ -34,11 +54,9 @@
     </p>
   </div>
 
-  <a href="/eletromarketing-main/html/index.html">Página inicial</a>
-  <a href="/eletromarketing-main/cadastro.php">Cadastro de usuarios novos</a>
-
-    
-
-
+  <div class="links">
+    <a href="/eletromarketing-main/html/index.html">Página inicial</a> |
+    <a href="/eletromarketing-main/cadastro.php">Cadastro de usuários novos</a>
+  </div>
 </body>
 </html>
